@@ -1,0 +1,36 @@
+#hero{
+    height:800px;
+    background-image: url(/images/places/india.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#hero-design{
+    width:900px;
+    background-color: rgba(250,250,250,0.5);
+    text-align: center;
+    margin:10px auto;
+    padding:5px;
+    box-shadow: 2px 2px 4px rgba(250,240,231,0.4);
+    position:relative;
+    top:300px;
+    border-radius: 10px;
+}
+#hero-design h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#hero-design p{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#hero-design a{
+    font-size:25px;
+    color:red;
+    background-color: lightpink;
+    padding:7px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#hero-design a:hover{
+    background-color: lightgray;
+}

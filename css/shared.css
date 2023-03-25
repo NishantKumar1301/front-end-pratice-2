@@ -1,4 +1,4 @@
-body{
+main{
     margin:0;
     font-family:"Quicksand","sans-serief" ;
 }
@@ -8,12 +8,10 @@ body{
     color:rgb(245,243,160);
     text-decoration: none;
     font-size: 50px;
+    padding:4px;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0,0,90);
     border-radius: 10px;
-}
-#logo a:hover{
-    background-color: yellow;
 }
 ul{
     list-style: none;
@@ -51,4 +49,23 @@ header nav a{
 }
 header nav a:hover{
     background-color: lightgreen;
+}
+footer{
+    background: linear-gradient(60deg,rgb(24,24,70),rgb(25,21,15));
+    padding:48px;
+}
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+footer li{
+    height:80px;
+    width:80px;
+    margin:2px 50px;
+}
+footer img{
+    height:100%;
+    width:100%;
 }
